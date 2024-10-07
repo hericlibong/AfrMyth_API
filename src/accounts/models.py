@@ -1,15 +1,9 @@
 from django.db import models
-from django.contrib.auth.models import AbstractBaseUser
+from django.contrib.auth.models import AbstractUser
 
-class User(AbstractBaseUser):
-    
-    groups = models.ManyToManyField(
-        'auth.Group', 
-        related_name='user_set', related_query_name='user', 
-        blank=True, 
-        help_text='The groups this user belongs to', verbose_name='groups')
-    user_permissions = models.ManyToManyField(
-        'auth.Permission',
-        related_name='user_set', related_query_name='user',
-        blank=True,
-        help_text='Specific permissions for this user', verbose_name='user permissions')
+class User(AbstractUser):
+    # Ajoutez des champs personnalisés si nécessaire
+    bio = models.TextField(blank=True, null=True, help_text="Biographie de l'utilisateur.")
+
+    def __str__(self):
+        return self.username
