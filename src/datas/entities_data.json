@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Olorun",
+        "entity_type": "Divinity",
+        "country_of_origin": "Nigeria",
+        "ethnicity": "Yoruba",
+        "gender": "Male",
+        "cultural_role": "Dieu suprême",
+        "pantheon": "Panthéon Yoruba",
+        "alignment": "Bienveillant",
+        "domains": ["Ciel", "Création", "Soleil"],
+        "main_symbols": ["Soleil", "Ciel"],
+        "characteristics": ["Omnipotent", "Omniscient"],
+        "manifestations": "Se manifeste sous la forme du ciel lui-même",
+        "symbolic_animals": ["Aigle"],
+        "power_objects": ["Soleil"],
+        "consorts": []
+    },
+    {
+        "name": "Soundiata Keïta",
+        "entity_type": "Hero",
+        "country_of_origin": "Mali",
+        "ethnicity": "Mandingue",
+        "gender": "Male",
+        "titles": "Lion du Mali",
+        "achievements": "Fondateur de l'Empire du Mali, unificateur du peuple mandingue",
+        "enemies": ["Soumaoro Kanté"],
+        "allies": ["Clan des Mandingues"]
+    },
+    {
+        "name": "Mokele-mbembe",
+        "entity_type": "Mythical Creature",
+        "country_of_origin": "République du Congo",
+        "ethnicity": "Peuples Bantous",
+        "gender": null,
+        "habitat": "Marais de Likouala",
+        "diet": "Végétarien, se nourrit de plantes",
+        "size": "Grand, similaire à un éléphant",
+        "weaknesses": "Inconnues",
+        "strengths": "Élusive, puissante"
+    }
+]
